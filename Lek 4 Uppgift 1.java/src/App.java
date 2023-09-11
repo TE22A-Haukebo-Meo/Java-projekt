@@ -8,7 +8,9 @@ public class App {
         System.out.println("Andra talet?");
         int tal2 = tb.nextInt();
             tb.nextLine();
-        double svar = (double)tal1/tal2;
+        double svar_dec = (double)tal1/tal2;
+        int svar = tal1/tal2;
+        System.out.println(tal1+"/"+tal2+"="+svar_dec);
         System.out.println(tal1+"/"+tal2+"="+svar);
         System.out.println("Sustantiv?");
         String substantiv = tb.next();
