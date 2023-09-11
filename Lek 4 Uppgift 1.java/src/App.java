@@ -10,5 +10,8 @@ public class App {
             tb.nextLine();
         double svar = (double)tal1/tal2;
         System.out.println(tal1+"/"+tal2+"="+svar);
+        System.out.println("Sustantiv?");
+        String substantiv = tb.next();
+        System.out.println(substantiv+"ar");
     }
 }
