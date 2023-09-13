@@ -17,5 +17,10 @@ public class App {
         int slut = tb.nextInt();
         String del_sträng = cool_mening.substring(start,slut);
         System.out.println(del_sträng);
+        System.out.println("Kan du outsmarta mitt program? SKriv något som finns eller inte finns i meningen");
+            tb.nextLine();
+        String shawarma = tb.nextLine();
+        Boolean finns = cool_mening.contains(shawarma);
+        System.out.println(finns);
     }
 }
