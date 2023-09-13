@@ -22,5 +22,11 @@ public class App {
         String shawarma = tb.nextLine();
         Boolean finns = cool_mening.contains(shawarma);
         System.out.println(finns);
+        System.out.println("Testa att ändra en del av meningen");
+        System.out.println("Skriv ett ord");
+        String change = tb.nextLine();
+        System.out.println("Vilket ord ska bytas ut?");
+        String försvinn = tb.nextLine();
+        System.out.println(cool_mening.replace(försvinn,change));
     }
 }
