@@ -11,5 +11,11 @@ public class App {
         int plats = cool_mening.indexOf(bokstav);
         System.out.println("din mening innehåller "+antal_bokstäver+" bokstäver.");
         System.out.println("Bokstaven "+bokstav+" ligger på platsen "+plats+" suiii");
+        System.out.println("Välje en startposition (siffra) för ett utrdag ur din mening");
+        int start = tb.nextInt();
+        System.out.println("Välj en slutposition (siffra) för ett utrdag ur din mening");
+        int slut = tb.nextInt();
+        String del_sträng = cool_mening.substring(start,slut);
+        System.out.println(del_sträng);
     }
 }
